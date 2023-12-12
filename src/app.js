@@ -26,12 +26,6 @@ let excuseGenerator = () => {
   let whenIndex = Math.floor(Math.random() * who.length);
 
   return (
-    who[whoIndex] +
-    " " +
-    action[actionIndex] +
-    " " +
-    what[whatIndex] +
-    " " +
-    when[whenIndex]
+    who[whoIndex] +  " " + action[actionIndex] + " " + what[whatIndex] + " " + when[whenIndex]
   );
 };
